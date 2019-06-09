@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="{% static 'home/styles.css' %}">
+</head>
+
+<body>
+
+<ul>
+  <li><a href="{% url "homeView" %}">Heim</a></li>
+  <li><a class="active" href="{% url "PriceView" %}">Priser</a></li>
+  <li><a href="#">Kontakt Info</a></li>
+  <li><a href="#">Kommande arangement</a></li>
+</ul>
+
+
+<p>
+	priser
+</p>
+</body>
+</html>

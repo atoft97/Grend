@@ -1,4 +1,25 @@
-<p>
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="{% static 'home/styles.css' %}">
+</head>
 
-	heisann
+<body>
+
+<div id="navbar">
+	<ul>
+	  <li><a class="active" href="{% url "homeView" %}">Heim</a></li>
+	  <li><a href="{% url "PriceView" %}">Priser</a></li>
+	  <li><a href="#">Kontakt Info</a></li>
+	  <li><a href="#">Kommande arangement</a></li>
+	</ul>
+</div>
+
+
+<p>
+	heisann2
 </p>
+</body>
+</html>
+

@@ -4,3 +4,8 @@ from django.shortcuts import render
 
 def HomeView(request):
 	return render(request, "home/home.html")
+
+
+def PriceView(request):
+	hei = "hei"
+	return render(request, "home/prices.html")
