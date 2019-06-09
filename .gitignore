@@ -1,0 +1,6 @@
+env/
+.vscode/
+grend/grend/secret.py
+db.sqlite3
+**__pycache__/
+
