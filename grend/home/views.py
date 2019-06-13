@@ -7,5 +7,7 @@ def HomeView(request):
 
 
 def PriceView(request):
-	hei = "hei"
 	return render(request, "home/prices.html")
+
+def ContactInfoView(request):
+	return render(request, "home/contact_info.html")

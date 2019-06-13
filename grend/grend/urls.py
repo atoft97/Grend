@@ -23,6 +23,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("", HomeView.HomeView, name="homeView"),
     path("pris/", HomeView.PriceView, name="PriceView"),
+    path("kontakt/", HomeView.ContactInfoView, name="ContactInfoView"),
     #path("",views.)
-
 ]
